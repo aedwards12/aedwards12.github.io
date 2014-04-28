@@ -1,0 +1,43 @@
+#header {
+	background-color: DimGray;
+	width: 100%;
+	height: 50px;
+	padding: 10px 10px 10px 10px;
+
+}
+
+#content {
+	width: 100%;
+	padding: 10px 10px 10px 10px;
+
+}
+
+
+#footer {
+	background-color: DimGray;
+	width: 100%;
+	height: 50px;
+	padding: 10px 10px 10px 10px;
+	clear:both;
+}
+
+.imagebox{
+	background-color: DarkGray;
+	width: 1000px;
+	height: auto;
+	padding: 10px 10px 10px 10px;
+	margin: 0 auto;
+}
+
+.italic{ 
+  font-style: italic; 
+}
+
+img{
+	margin: 0 auto;
+}
+
+body{
+	margin: 0 auto; 
+	background-color: #4C4646;
+}
