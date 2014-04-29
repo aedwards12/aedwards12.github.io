@@ -1,0 +1,46 @@
+ 
+        h1 {
+            margin-left: 10px;
+        }
+        body {
+            padding: 50px;
+            font-family: 'Verdana';
+        }
+
+        #content hr {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        ul li {
+            font-size: 18px;
+        }
+        .pic{
+            height: auto;
+            width: 700px;
+        }
+        .pic{
+            height: 500px;
+            width: auto;
+        }
+        #content {
+            padding: 10px;
+            height: auto;
+            width: 700px;
+            float: left;
+        }
+        #sidebar {
+            padding: 10px;
+            height: auto;
+            width: 150px;
+            float: right;
+            margin-right: 30px;
+        }
+        #footer {
+            clear: both;
+            margin-top: 20px;
+            padding: 10px;
+        }
+
+        #footer hr{
+            margin-bottom: 30px;
+        }
