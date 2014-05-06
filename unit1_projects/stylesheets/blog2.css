@@ -5,6 +5,7 @@
 
 }
 
+
 #content {
 	padding: 50px 50px 50px 50px;
 }
@@ -23,12 +24,14 @@
 	border: 1px solid black;
 	padding: 1em;
 	margin-bottom: 3em;
+	margin-top: 2em;
 	min-width: 300px; 10px;
+	border-radius: 30px;
 }
 
 .imagebox{
 	font-family: verdana;
-	background-color: darkgray;
+	background-color: none;
 	width: 60%;
 	height: auto;
 	padding: 1em;
@@ -37,7 +40,10 @@
 	clear: right;
 	border: 1px solid black;
 	margin-bottom: 3em;
+	margin-top: 2em;
 	min-width: 300px;
+	border-radius: 30px;
+
 }
 
 .italic{ 
@@ -66,29 +72,30 @@ img{
 	width: auto;
 	height: 400px;
 }
-h3{
-	font-family:verdana;
-}
-
-h1{
-	font-family:verdana;
-}
-ul li{
-font-family:verdana;
-}
 
  a:link{
 	color:black;
 	text-decoration: none;
-
 }
-
+h2 {
+	font-family: 'Coming Soon', cursive;
+}
+h3  {
+	font-family: 'Coming Soon', cursive;
+}
+html{
+	font-family: 'Coming Soon', cursive;
+}
+p{
+	font-family: 'Coming Soon', cursive;
+}
 
 
 body{
 	margin: 0 auto; 
 	background-color: #4C4646;
 	background-repeat: no-repeat;
-	background-image: url("http://www.pinkimp.com/images/background.jpg");
+	background-image: url("http://www.aapopuskala.fi/_img/paper.jpg");
 	background-attachment: fixed;
+	font-family: 'Coming Soon', cursive;
 }
