@@ -66,6 +66,46 @@ Will remove entries from the staging area.
 
 This checks the status of you repository.  It gives you details about which changes you need to commit, and which branch you are currently working on. 
 
+My Reflection:
+
+This challenge provided more knowledge to understanding the capabilities of Git. I learned new commands that I did not previously know it could do. Writing out the definitions was alitte daunting but it was well accepted because I know I will be better for it.  Making the cheat sheet will definitely help me going forward. I am not that fluent with using terminal yet, but I know I will get better over time. I am pretty confident with the learning competencies. Im still having trouble with some of the differences in commands such as git rm vs  git reset. 
+
+This retrieves new work done by other people.  Fetching from a repository grabs all the new remote-tracking branches and tags without merging those changes into your own branches. 
+
+#### log
+<!-- Your defnition here -->
+
+Allows you to find specific commits on your project history – by author, date, content, and history. 
+
+#### merge
+<!-- Your defnition here -->
+
+This allows you to combine branches with the main code 
+
+#### pull
+<!-- Your defnition here -->
+
+This downloads from Github.com the most up to date version of your repository to work with to your local computer. 
+
+#### push
+<!-- Your defnition here -->
+
+This command sends the commits you’ve made on your local pc to the online version of github.com
+
+
+#### reset
+<!-- Your defnition here -->
+Allows you to unstage a previous commit.  For example if you committed changes that you did not mean to commit. 
+
+#### rm
+<!-- Your defnition here -->
+
+Will remove entries from the staging area. 
+
+#### status
+
+This checks the status of you repository.  It gives you details about which changes you need to commit, and which branch you are currently working on. 
+
 
 ## Release 4: Git Workflow
 
