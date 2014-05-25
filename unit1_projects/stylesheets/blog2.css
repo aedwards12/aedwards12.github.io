@@ -71,6 +71,13 @@ img{
 	width: auto;
 	height: 400px;
 }
+.code{
+	color: white; 
+	background-color: black;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
 
  a:link{
 	color:black;

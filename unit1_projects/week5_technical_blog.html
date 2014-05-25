@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+		<title>DBC Cohort Anthony Edwards</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/blog2.css">
+	</head>
+	<body>
+		<div id="header">
+			<h1>My Technical Blog</h1>
+			<a href="cultural_blog.html"><h4>back</h4></a>
+
+			<hr>
+		</div>
+
+		<div id="content">
+			<div class="imagebox">
+				<h3>Ruby Classes   25 May 2014</h3>
+				<img src="http://0.tqn.com/d/ruby/1/5/5/2/-/-/instances.png" alt="google" class="imageblog">
+
+				<p>A class is a template for creating object instances.  Objects are created from that class type.  Things an object knows about itself are called instance variables. They represent an object&#39s state, (for example a Persons SSN number, or date of birth. ) and can have unique values for each object of that type. </br> </p>
+
+				<div class="code">Class Person # class Person</br>
+				End</div></br>
+
+				<div class="code">James = new.Person # object of class Person with the handle James </br>
+				</div>
+				
+
+				<p>Similar to a constructor in Java, Ruby has a method named initialize that creates a new object and executes it.  We use initialize to assign the parameter we passed into it to an instance variable. </p> 
+
+				<div class="code">Class Person</br>
+					<span style="margin-left: 20px;">def initialize(name, age,)</span></br>
+				<span style="margin-left: 40px;">@name = name</span> </br>
+				<span style="margin-left: 40px;">@age = age</span></br>
+				<span style="margin-left: 40px;">puts &#34constructor called with two arguments.&#34 <span></br>
+					<span style="margin-left: 20px;">end</span></br>
+				end </div>
+
+				<p>Ruby like Java does not allow instance variables to be accessed outside of methods for that object. Ruby accessor methods are optional. Ruby has a group of attribute functions that can very easily create the necessary getters and setters. Attr-accessor creates the getter and setter methods for the specific attribute.</br></p>
+
+				<div class="code">	
+				Attr_accessor :name </br>
+				</br>
+				Is a shortcut for:</br>
+				</br>
+				Class Person</br>
+					<span style="margin-left: 20px;">def name(name) #setter function</span></br>
+						<span style="margin-left: 40px;">@name = name</span></br>
+					<span style="margin-left: 20px;">end</span></br>
+				</br>
+					<span style="margin-left: 20px;">def name # getter function</span></br>
+						<span style="margin-left: 40px;">@name</span></br>
+					<span style="margin-left: 20px;">end</span></br>
+				end 
+				</div>
+
+				<p>Using attr_accessor we saved ourselves the time of writing 2 methods.  Instead we wrote 1 line of code. </p>
+			
+			</div>
+			<div id="sidebar">
+				<h3>About me</h3>
+					<img src="http://aevisionz.com/wp-content/uploads/2014/04/flava_print-12.jpg" alt="anthony" class="image">
+				<hr>
+				<ul class="dbc1">
+ 					 <li><a href="www.aevisionz.com" target="_blank">AEvisionz My personal web portfolio</a></li>
+  					<li>Military Veteran</li>
+  					<li>oldest of 3 brothers and 2 sisters</li>
+				</ul>
+			</div>	
+					
+		</div>
+		
+		<div id="footer" >
+		
+		</div>
+	</body>
+
+</html>
