@@ -41,7 +41,7 @@ img{
 .clock{
 	width: 100%;
 	float: right;
-	margin:2em; 
+	margin-left: 4em; 
 	color: black;
 }
 
