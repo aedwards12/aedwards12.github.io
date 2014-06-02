@@ -74,8 +74,8 @@ img{
 .code{
 	color: white; 
 	background-color: black;
-	padding-right: 2px;
-	padding-left: 2px;
+	
+	padding: 5px;
 }
 
 

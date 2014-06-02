@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+		<title>DBC Cohort Anthony Edwards</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/blog2.css">
+	</head>
+	<body>
+		<div id="header">
+			<h1>My Technical Blog</h1>
+			<a href="blog.html"><h4>back</h4></a>
+
+			<hr>
+		</div>
+
+		<div id="content">
+			<div class="imagebox">
+				<h3>Variable Scope   1 June 2014</h3>
+				<img src="http://captivatedev.com/wp-content/uploads/2011/04/VariableScope1.jpg" alt="scope" class="imageblog">
+				<p>The ruby programming language supports four types of variable scope, local, global, instance, and class.  Each variable type is declared by using a special character at the start of the variable name. </p>
+				<table border="1" style="width:100%;color:white;background-color:black;">
+				<tr>
+				  <td>$</td>
+				  <td>A global variable</td> 
+				 
+				</tr>
+				<tr>
+				  <td>@</td>
+				  <td>An instance variable</td> 
+				 
+				</tr>
+				<tr>
+				  <td>[a-z] or _</td>
+				  <td>A Local variable</td> 
+				 
+				</tr>
+				<tr>
+				  <td>[A-Z]</td>
+				  <td>A constant</td> 
+				 
+				</tr>
+				<tr>
+				  <td>@@</td>
+				  <td>A class variable</td> 
+				 
+				</tr>
+				</table>
+				<p>Global variables are accessible anywhere inside the Ruby Program</p>
+				<div class="code">$welcome = "Welcome to Ruby Essentials" </div>
+
+				<p>Global variables are strongly discouraged because they can be changed from anywhere inside the application. Which can make tracking bugs difficult. </p>
+
+				<p>Class Variables are variables that are shared amongst all instances or objects of the class.  For example if one object changes the value of the class variable.  All the other objects will now be using the new value of the variable </p>
+				<div class="code">@@total = 0  </div>
+
+
+				<p>Instance variables are similar to Class variables except that their values are local to specific instances of an object not to all objects/instances of the class. All objects share the same instance variable name but contain their own values of that variable name.  For example if one object changes its value, the change only effects the object calling that variable. </p>
+
+				<div class="code">@total = 10 </div>
+
+				<p>Local variables are local to the code construct in which they are declared.  For example a variable declared inside a method or function can only be used inside that method.  That same variable cannot be accessed outside the method. This same rule also applies to loops.  </p>
+				<div class="code">loopcounter = 10 _LoopCounter = 20 </div>
+
+			
+			</div>
+			<div id="sidebar">
+				<h3>About me</h3>
+					<img src="http://aevisionz.com/wp-content/uploads/2014/04/flava_print-12.jpg" alt="anthony" class="image">
+				<hr>
+				<ul class="dbc1">
+ 					 <li><a href="www.aevisionz.com" target="_blank">AEvisionz My personal web portfolio</a></li>
+  					<li>Military Veteran</li>
+  					<li>oldest of 3 brothers and 2 sisters</li>
+				</ul>
+			</div>	
+					
+		</div>
+		
+		<div id="footer" >
+		
+		</div>
+	</body>
+
+</html>
