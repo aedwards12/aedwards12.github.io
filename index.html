@@ -2,19 +2,23 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="homepage.css">
 	<link href='http://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="flipclock.css">
 	 <script src="jquery-1.9.1.min.js"></script>
 	<!--<script src="jquery.js"></script>-->
-	<script src="flipclock.min.js"></script>
 </head>
 	<body>
 		<header id="head">
-			<h1>Welcome DevBootcamp</h1>
-			<h3>Countdown to Devbootcamp Phase 1</h3>
-			<div style="margin-left: 6em">
-				<div class="clock"  style="margin-left: 4em"> </div>
-			</div>
+			<h1>Anthony Edwards Jr</h1>
 		</header>
+		<section class="icon-box">
+			<ul>
+				<a><li class="facebook"></li></a>
+				<a><li class="linked-in"></li></a>
+				<a><li class="github"></li></a>
+				<a><li class="twitter"></li></a>
+				<a><li class="blog"></li></a>
+			</ul>	
+
+		</section>
 		<section id="box">
 			<a href="unit1_projects/cultural_blog.html" target="_blank"><article class="inner_box"><h1>My Cultural Blog</h1></article></a>
 			<a href="unit1_projects/blog.html" target="_blank"><article class="inner_box"><h1>My Blog</h1></article></a>
@@ -39,37 +43,5 @@
    					<a href="http://aevisionz.com"><dd>Website</dd></a>
 			</dl>
 		</aside>
-		
-		<script type="text/javascript">
-			var clock;
-
-			$(document).ready(function() {
-
-				// Grab the current date
-				var currentDate = new Date();
-
-				// Set some date in the future. In this case, it's always Jan 1
-				/*var futureDate  = new Date();
-				futureDate.setFullYear(2014,6,23);
-
-
-				// Calculate the difference in seconds between the future and current date
-				var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
-*/
-
-				var futureDate  = new Date("June 23, 2014 06:15:00");
-
-				// Calculate the difference in seconds between the future and current date
-				var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
-
-				// Instantiate a coutdown FlipClock
-				clock = $('.clock').FlipClock(diff, {
-					clockFace: 'DailyCounter',
-					countdown: true,
-					showSeconds: false
-				});
-
-			});
-		</script>
 	</body>
 </html>
