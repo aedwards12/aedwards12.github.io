@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cheatsheet JavaScript Objects</title>
+
+    <!-- Bootstrap -->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/cheatsheet.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <h1 class="pad">Git & Github</h1>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 item">
+          <table style="width:100%">
+            <tr>
+              <th><h3>Git</h3></th>
+            </tr>
+            <tr>
+              <td>
+                <ul>
+                  <li> - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency</li>
+                  <li> - Git is released under the GNU General Public License version 2.0, which is an open source license. </li>
+                  <li> - The Git project chose to use GPLv2 to guarantee your freedom to share and change free software---to make sure the software is free for all its users.</li>
+                </ul>
+              </td>
+            </tr>
+            </table>
+        </div>
+        <div class="col-md-4 item">
+           <h3>About</h3>
+          <table style="width:100%">
+            <tr>
+              <!-- <td><img src="http://www.git-scm.com/images/about/branches@2x.png" class="img-responsive"></td>
+              <td> -->
+                <ul>
+                  <li><img src="http://www.git-scm.com/images/about/branches@2x.png" class="img-responsive"></li>
+                  <li>-Strong support for non-linear development</li>
+                  <li>-Distributed development</li>
+                  <li>-Compatability with existing systems/protocols</li>
+                  <li>-Cryptographic authentication of history</li>
+                </ul>
+              </td>    
+            </tr>
+          </table>
+          <table style="width:100%">
+            <tr>
+              <td>
+                <ul>
+                  <li><strong>Frictionless Context Switching</strong>. Create a branch to try out an idea, commit a few times, switch back to where you branched from, apply a patch, switch back to where you are experimenting, and merge it in.</li>
+                  <li><strong>Role-Based Codelines</strong>. Have a branch that always contains only what goes to production, another that you merge work into for testing, and several smaller ones for day to day work.</li>
+                  <li><strong>Feature Based Workflow</strong>. Create new branches for each new feature you're working on so you can seamlessly switch back and forth between them, then delete each branch when that feature gets merged into your main line</li>
+                  <li><strong>Disposable Experimentation</strong>. Create a branch to experiment in, realize it's not going to work, and just delete it - abandoning the work—with nobody else ever seeing it (even if you've pushed other branches in the meantime).</li>
+                </ul>
+              </td>
+            </tr>
+            </table>
+
+        </div>
+        <div class="col-md-4 item">
+          <h3>Staging area</h3>
+          <ul>
+        
+            <li><img src="http://git-scm.com/images/about/index1@2x.png" class="img-responsive"></li>
+            <li>- Git has something called the "staging area" or "index". This is an intermediate area where commits can be formatted and reviewed before completing the commit.</li>
+            <li>- It is possible to quickly stage some of your files and commit them without committing all of the other modified files in your working directory or having to list them on the command line during the commit.</li>
+            <li>- You can just stage the change you need for the current commit and stage the other change for the next commit. This feature scales up to as many different changes to your file as needed.</li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col-md-12 pad item">
+            <h3>Git Devbootcamp WorkFlow</h3>
+            <ul>
+              <li>1. Go to the directory you want to clone on github.com </li>
+              <li><img src="http://blog.slaks.net/images/2013/github-clone-url.png" class="img-responsive"></li>
+            </ul>
+            <h3>Setup </h3>
+            <ul>
+              <li> <div class="code"><p>=> git clone " +++++ HTTP link copied from github ++++++ "</p></div></li>
+              <li> Check git status</li>
+              <li><div class="code"><p>=>git status</p></div></li>
+
+              <li>Move into the directory that you just cloned</li>
+              <li>name the who the collaborators are and enter username/password</li>
+              <li><div class="code"><p>=>weare aedwards & "othername"</p></div></li>
+
+              <li>Make a new branch</li>
+              <li><div class="code"><p>=>git checkout -b "branchname"</p></div></li>
+
+            </ul>
+            <h3>Update </h3>
+            <ul>
+              <li>After you make changes to code and you find a code point to save data</li>
+              <li><div class="code"><p>=>git add .  | git add . "filename"</p></div></li>
+
+              <li>commit the changes</li>
+              <li><div class="code"><p>=>git commit -m " Updated my file with new information"</p></div></li>
+              <li>repeat until you are ready to push your changes to github</li>
+              <li><div class="code"><p>=>git push origin "branchname"</p></div></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="stylesheets/bootstrap.min.js"></script>
+  </body>
+</html>
