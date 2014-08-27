@@ -38,7 +38,7 @@ header ul li{
 }
 
 header ul li:hover{
-	color:rgba(13, 66, 255, 0.6);
+	color: rgba(230, 255, 230, 0.4);
 	transition-property: color, -webkit-transform;
     transition-duration: 1s;
     transition-timing-function: easeIn;
@@ -86,6 +86,14 @@ header ul li:visited{
 	width: 100%;
 	background-color: rgba(0,0,0,.9)
 }
+.my-info{
+	float: left;
+	margin-left: 3em;
+}
 
+dd{
+	margin-bottom: .5em;
+	font-size: 1em;
+}
 
 
