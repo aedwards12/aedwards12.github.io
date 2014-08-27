@@ -55,7 +55,7 @@ header ul li:visited{
 .icon-box{
 	position: relative;
 	top:100px;
-	width: 700px;
+	width: 770px;
 	height: 150px;
 	margin: 0 auto;
 	background-color: rgba(0,0,0,.9)
@@ -95,5 +95,24 @@ dd{
 	margin-bottom: .5em;
 	font-size: 1em;
 }
+.about-me h1{
+	margin-left: 10px;
+}
 
+.resume{
+	position: relative;
+	top: 450px;
+	height: 20em;
+	padding: 10px;
+	width: 100%;
+	background-color: rgba(0,0,0,.9)
+}
 
+.projects{
+	position: relative;
+	top: 650px;
+	height: 20em;
+	padding: 10px;
+	width: 100%;
+	background-color: rgba(0,0,0,.9)
+}
