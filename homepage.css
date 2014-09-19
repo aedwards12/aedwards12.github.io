@@ -52,6 +52,7 @@ header ul li:active{
 header ul li:visited{
 	color: grey;
 }
+
 .icon-box{
 	position: relative;
 	top:100px;
@@ -70,8 +71,8 @@ header ul li:visited{
 	transition-property: color, -webkit-transform;
     transition-duration: 1s;
     transition-timing-function: easeIn;
-
 }
+
 .icon-box ul li:hover{
 	color: #DBAD11;
     -webkit-transform:rotate(90deg);
@@ -103,6 +104,7 @@ dt{
 	color: #DB5511;
 
 }
+
 p{
 	line-height: 1.5em;
 }
@@ -125,12 +127,21 @@ h2, h3{
 	width: 100%;
 	background-color: rgba(0,0,0,1);
 	overflow: scroll;
-
 }
-
 
 .resume dd{
 	margin-bottom: .5em;
+}
+
+.gradient{
+background: #000000; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #000000 0%, #353535 100%, #474747 100%, #1c1c1c 100%, #111111 100%, #000000 100%, #131313 100%, #111111 100%, #2c2c2c 100%, #000000 100%, #1c1c1c 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#000000), color-stop(100%,#353535), color-stop(100%,#474747), color-stop(100%,#1c1c1c), color-stop(100%,#111111), color-stop(100%,#000000), color-stop(100%,#131313), color-stop(100%,#111111), color-stop(100%,#2c2c2c), color-stop(100%,#000000), color-stop(100%,#1c1c1c)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg, #000000 0%,#353535 100%,#474747 100%,#1c1c1c 100%,#111111 100%,#000000 100%,#131313 100%,#111111 100%,#2c2c2c 100%,#000000 100%,#1c1c1c 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg, #000000 0%,#353535 100%,#474747 100%,#1c1c1c 100%,#111111 100%,#000000 100%,#131313 100%,#111111 100%,#2c2c2c 100%,#000000 100%,#1c1c1c 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg, #000000 0%,#353535 100%,#474747 100%,#1c1c1c 100%,#111111 100%,#000000 100%,#131313 100%,#111111 100%,#2c2c2c 100%,#000000 100%,#1c1c1c 100%); /* IE10+ */
+background: linear-gradient(135deg, #000000 0%,#353535 100%,#474747 100%,#1c1c1c 100%,#111111 100%,#000000 100%,#131313 100%,#111111 100%,#2c2c2c 100%,#000000 100%,#1c1c1c 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#1c1c1c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .projects{
@@ -141,5 +152,4 @@ h2, h3{
 	width: 100%;
 	background-color: rgba(0,0,0,.6);
 	overflow: scroll;
-
 }
