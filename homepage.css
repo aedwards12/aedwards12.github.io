@@ -109,6 +109,7 @@ p{
 }
 
 span{
+
 	color: #DBAD11;
 }
 .about-me h1{
@@ -185,7 +186,13 @@ h2, h3{
 .project-description p{
 	color:white;
 }
+.project-description span{
+	font-size:23px;
 
+}
+.project-description a{
+	text-decoration: none;
+}
 .project-description{
 	padding-left: 200px;
 	padding-right:50px;
