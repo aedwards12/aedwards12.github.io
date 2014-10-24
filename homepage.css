@@ -51,6 +51,9 @@ header ul li:active{
 header ul li:visited{
 	color: grey;
 }
+.active {
+	color: #DBAD11;
+}
 
 .icon-box{
 	position: relative;
@@ -188,6 +191,11 @@ h2, h3{
 	background-size: 250px 250px;
 	background-repeat: no-repeat;
 
+}
+.image-5{
+	background-image: url("https://s3-us-west-2.amazonaws.com/aevisionzbucket/web+dev+screenshots/MooreandMooreFitness.png");
+	background-size: 250px 250px;
+	background-repeat: no-repeat;
 }
 .project-description p{
 	color:white;
