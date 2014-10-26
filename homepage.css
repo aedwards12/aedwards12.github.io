@@ -14,7 +14,6 @@ body{
 	margin: 0px;
 	padding: 0px;
 	transition-duration: 2s;
-
 }
 
 header{
@@ -50,9 +49,9 @@ header{
 	display: inline-block;
 	margin-left: 2em;
 	border-bottom: 1px solid #DBAD11;
-
 	color: rgba(255, 255, 255, 0.6);
 }
+
 .navbar h1{
 	display: inline-block;
 }
@@ -64,17 +63,9 @@ header{
 	color: #DBAD11;
 	border-bottom: 2px solid #DBAD11;
 	-webkit-transform-style: preserve-3d;
-
-    transition-duration: .5s;
+  transition-duration: .5s;
 }
 
-header ul li:active{
-	color: red;
-}
-
-header ul li:visited{
-	color: grey;
-}
 .navbar .active {
 	color: #DBAD11;
 }
@@ -91,8 +82,8 @@ header ul li:visited{
 	margin-left: 1em;
 	color: rgba(255, 255, 255, 0.6);
 	transition-property: color, -webkit-transform;
-    transition-duration: 1s;
-    transition-timing-function: easeIn;
+  transition-duration: 1s;
+  transition-timing-function: easeIn;
 }
 
 .social-icons ul li:hover{
@@ -111,6 +102,7 @@ header ul li:visited{
 	background-color: rgba(0,0,0,.9);
 	transition-durations: 1s;
 }
+
 .my-info{
 	float: left;
 	margin-left: 3em;
@@ -125,14 +117,10 @@ header ul li:visited{
 	padding-left: 10px;
 	left:30px;
 	border-left: 2px solid #DBAD11;
-
-
 }
 
 dd,p{
 	margin-bottom: .5em;
-	/*font-size: 1em;*/
-	/*letter-spacing: 1px;*/
 }
 
 dt{
