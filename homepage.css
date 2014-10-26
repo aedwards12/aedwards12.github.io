@@ -47,8 +47,9 @@ header{
 .navbar ul li{
 	list-style-type: none;
 	display: inline-block;
+	padding-bottom: 3px;
 	margin-left: 2em;
-	border-bottom: 1px solid #DBAD11;
+	border-bottom: 1px solid #B71C0C;
 	color: rgba(255, 255, 255, 0.6);
 }
 
